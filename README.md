@@ -6,9 +6,13 @@ This is Exploratory Analysis about the Madrid lisings in AirBnB. The idea is of 
 For using this notwbook you must have the following python liberies installed
 
 -numpy (https://docs.scipy.org/doc/numpy/user/install.html)
+
 -pandas (https://pandas.pydata.org/pandas-docs/stable/install.html)
+
 -matplotlib (https://matplotlib.org/users/installing.html)
+
 -seaborn (https://seaborn.pydata.org/installing.html)
+
 -sklearn (https://scikit-learn.org/stable/install.html)
 
 # Contribution 
