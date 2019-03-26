@@ -20,7 +20,7 @@ Although AirBnB was born with the idea of helping people to rent their homes/roo
 I have made some model however the performace is not good so far. It is open to create new models or to improve the actual ones to achive better efficiency
 
 
-# files
+# Files
 This project includes the following files
 - AirBnB_data_analysis.ipynb: Jupyter Notebook where the analysis is done
 -Data files: listings.csv, reviews_m.csv, calendar_m.csv, neighbothoods_m in zip format.
