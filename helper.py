@@ -32,3 +32,15 @@ def scree_plot(pca):
     ax.set_xlabel("Principal Component")
     ax.set_ylabel("Variance Explained (%)")
     plt.title('Explained Variance Per Principal Component')
+
+    # function to fill the NaN values using the mean
+ 
+def impute_missing(df, col):
+    """
+    HERE YOU SHOULD BRIEFLY DESCRIBE WHAT THE FUNCTION COMPUTES 
+    Args: Data frame and column name
+        .....
+    Returns: The data frame with the missing values converted to the mean()
+        ....
+    """
+    return df[col].fillna(df[col].mean(),inplace=True)
