@@ -44,3 +44,26 @@ def impute_missing(df, col):
         ....
     """
     return df[col].fillna(df[col].mean(),inplace=True)
+
+#funtion to get R2 score in train and test data
+def quick_val (model):
+    '''
+    Creates a scree plot associated with the principal components
+
+    INPUT: model to be validated
+
+    OUTPUT:
+            R2 result for train and test data
+            
+    '''
+    
+    train_predict = model.predict(X_train)
+    test_predict = model.predict(X_test)
+
+    train_score = r2_score(y_train, train_predict)
+    test_score = r2_score(y_test, test_predict)
+    
+    
+
+    return print("In the model {}, The rsquared on the training data was {} and the rsquared on the test data was {}.".format(type(model).__name__,train_score, test_score))
+
